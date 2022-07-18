@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment4 on Gui", "Assignment4 on Gui\Assignment4 on Gui.csproj", "{0C75DBAB-0D8C-48AA-B0CC-507391F69A75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C75DBAB-0D8C-48AA-B0CC-507391F69A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C75DBAB-0D8C-48AA-B0CC-507391F69A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C75DBAB-0D8C-48AA-B0CC-507391F69A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C75DBAB-0D8C-48AA-B0CC-507391F69A75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E001451-9309-4DC9-9E2E-B9F36EF5B5E6}
+	EndGlobalSection
+EndGlobal

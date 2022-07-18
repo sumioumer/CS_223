@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
+using System;
+usuing System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment_4_GUI
+
+namespace Assignment4_on_GUI
 {
-    internal class add
+    internal class product
 
     {
-        private static List<add> products = new List<add>();
+        private static List<product> products = new List<product>();
 
         public string number { get; set; }
         public string date { get; set; }
@@ -22,7 +24,7 @@ namespace Assignment_4_GUI
             products.Add(this);
             //Console.WriteLine("SAVE");
         }
-        public static List<add> GetAll()
+        public static List<product> GetAll()
         {
             return products;
         }
