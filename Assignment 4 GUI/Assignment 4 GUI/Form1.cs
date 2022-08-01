@@ -35,6 +35,7 @@ namespace Assignment4_on_GUI
                 md.objectname = txt_objectname.Text;
                 md.price = txt_price.Text;
                 md.count = txt_count.Text;
+                md.available=
 
             }
             md.save();

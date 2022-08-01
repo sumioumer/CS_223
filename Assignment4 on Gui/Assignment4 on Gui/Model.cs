@@ -1,6 +1,6 @@
 ﻿
 using System;
-usuing System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,6 +19,7 @@ namespace Assignment4_on_GUI
         public string objectname { get; set; }
         public string count { get; set; }
         public string price { get; set; }
+        public bool available { get; set; } 
         public void save()
         {
             products.Add(this);

@@ -11,14 +11,14 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
+     /*   protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
             {
                 components.Dispose();
             }
             base.Dispose(disposing);
-        }
+        }*/
 
         #region Windows Form Designer generated code
 
@@ -47,7 +47,7 @@
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.gridview_register)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
-            this.SuspendLayout();
+           // this.SuspendLayout();
             // 
             // label1
             // 
@@ -143,7 +143,7 @@
             this.txt_buttonclick2.TabIndex = 12;
             this.txt_buttonclick2.Text = "Cancel";
             this.txt_buttonclick2.UseVisualStyleBackColor = true;
-            this.txt_buttonclick2.Click += new System.EventHandler(this.txt_buttonclick2_Click);
+            //this.txt_buttonclick2.Click += new System.EventHandler(this.txt_buttonclick2_Click);
             // 
             // txt_buttonclick1
             // 
@@ -154,7 +154,7 @@
             this.txt_buttonclick1.TabIndex = 13;
             this.txt_buttonclick1.Text = "Add";
             this.txt_buttonclick1.UseVisualStyleBackColor = true;
-            this.txt_buttonclick1.Click += new System.EventHandler(this.txt_buttonclick1_Click);
+          //  this.txt_buttonclick1.Click += new System.EventHandler(this.txt_buttonclick1_Click);
             // 
             // label2
             // 
@@ -182,15 +182,15 @@
             this.gridview_register.RowTemplate.Height = 28;
             this.gridview_register.Size = new System.Drawing.Size(851, 181);
             this.gridview_register.TabIndex = 15;
-            this.gridview_register.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridview_register_CellContentClick);
+            //this.gridview_register.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridview_register_CellContentClick);
             // 
             // errorProvider1
             // 
-            this.errorProvider1.ContainerControl = this;
+           // this.errorProvider1.ContainerControl = this;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+           /* this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(887, 624);
             this.Controls.Add(this.gridview_register);
@@ -212,9 +212,9 @@
             this.Text = "Add Inventory";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridview_register)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();*/
+            //this.ResumeLayout(false);
+            //this.PerformLayout();
 
         }
 
