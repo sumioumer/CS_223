@@ -307,5 +307,6 @@
         private CheckedListBox checkedListBox1;
         private RadioButton radioButton1;
         private ErrorProvider errorProvider1;
+        private CustomCard customCard1;
     }
 }

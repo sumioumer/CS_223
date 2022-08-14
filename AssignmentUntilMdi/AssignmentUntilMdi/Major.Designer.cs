@@ -72,6 +72,7 @@
             this.displayToolStripMenuItem.Name = "displayToolStripMenuItem";
             this.displayToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.displayToolStripMenuItem.Text = "Display";
+            this.displayToolStripMenuItem.Click += new System.EventHandler(this.displayToolStripMenuItem_Click);
             // 
             // dislayAllProductToolStripMenuItem
             // 
@@ -91,7 +92,7 @@
             // searchItemToolStripMenuItem
             // 
             this.searchItemToolStripMenuItem.Name = "searchItemToolStripMenuItem";
-            this.searchItemToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.searchItemToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.searchItemToolStripMenuItem.Text = "Search Item";
             this.searchItemToolStripMenuItem.Click += new System.EventHandler(this.searchItemToolStripMenuItem_Click);
             // 

@@ -61,5 +61,10 @@ namespace AssignmentUntilMdi
             display.Show();
 
         }
+
+        private void displayToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
